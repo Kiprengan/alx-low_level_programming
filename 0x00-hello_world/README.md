@@ -1,1 +1,1 @@
-Starting to program with C
+Starting basic programming skills of C
