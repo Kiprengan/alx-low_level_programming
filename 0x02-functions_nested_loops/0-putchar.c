@@ -4,13 +4,15 @@
  *
  *
  */
-int main(){
-int i=0;
+int main(void)
+{
+int i = 0;
 char pchar[] = "_putchar";
-while(i < 8){
-_putchar(pchar[i]);
-i++;	
+while (i < 8)
+{
+_putchar(pchar[i]);/* using _putchar function */
+i++;
 }
 _putchar('\n');
-return(0);
+return (0);
 }
