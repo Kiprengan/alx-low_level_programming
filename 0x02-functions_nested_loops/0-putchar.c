@@ -1,18 +1,20 @@
 #include "main.h"
+
 /**
 * main - Print the word "_putchar"
 *
 * Return: Always 0 (Success)
 */
+
 int main(void)
 {
-int i = 0;
-char pchar[] = "_putchar";
-while (i < 8)
-{
-_putchar(pchar[i]);/* using _putchar function */
-i++;
-}
-_putchar('\n');
-return (0);
+	int i;
+	char pchar[] = "_putchar";
+
+	for (i = 0; i < 8; i++)
+		{
+		_putchar(pchar[i]);
+		}
+		_putchar('\n');
+	return (0);
 }
