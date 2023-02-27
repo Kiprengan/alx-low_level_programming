@@ -1,1 +1,1 @@
-Working with c pointers and arrays
+Working with pointers and arrays in C
