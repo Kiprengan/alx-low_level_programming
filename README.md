@@ -1,1 +1,1 @@
-Starting to program with C
+struct and typedef in C
