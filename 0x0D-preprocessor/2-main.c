@@ -9,5 +9,5 @@
  */
 int main(void){
 	printf("This program was compliled from %s\n", __BASE_FILE__);
-	retun (0);
+	return (0);
 }
