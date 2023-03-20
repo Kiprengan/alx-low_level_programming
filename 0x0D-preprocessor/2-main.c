@@ -1,13 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
- * This program prints name file which the program was compliled from
- * no arguments
- * returns 0
- * 
- */
-int main(void){
-	printf("This program was compliled from %s\n", __BASE_FILE__);
-	return (0);
+ * main - prints name of compilation file with new line
+ * Return: 0
+ **/
+int main(void)
+{
+        printf("%s\n", __BASE_FILE__);
+        return (0);
 }
